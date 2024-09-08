@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LDLB94KCY8"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());  gtag('config', 'G-LDLB94KCY8');
+</script>
+        <img src="wheatlessheader.png" alt="header" id="logo">
+        <title>Add Restaurant</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+  		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="addrestaurant.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Connect with us!</h1> 
+        </header>
+            <form action="addinterest.php" method="POST" >
+                First Name:
+                <input type="text" name="firstName" /><br>
+                Last Name:  
+                <input type="text"  name="lastName" /> <br>
+                Email: 
+                <input type="text"  name="email" size="50px" /><br><br>
+               	Comments and Feedback:
+                <br> 
+                <textarea type="text" name="commentsfeedback" rows="10" cols="50" ></textarea><br>
+                How did you hear about Wheatless? 
+                <br>
+                <textarea type="text" name="commentsfeedback" rows="10" cols="50" ></textarea><br><br>
+                <input type="submit" name="register" value="register" />
+            </form>
+    </body>
+</html>

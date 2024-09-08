@@ -1,0 +1,142 @@
+table {
+  margin: -5 auto;
+  margin right: 10px;
+  text-align: center;
+  font-size: 30px;
+  border-left: none;
+  border-color:#9ac9db;
+}
+
+html, h1 {
+  color: #000000;
+  font-family:'Poppins', sans-serif;
+  background-color: #9ac9db;
+  text-align: center;
+}
+
+html, h2{
+  color: #000000;
+  font-family:'Poppins', sans-serif;
+  background-color: #9ac9db;
+  text-align: center;
+}
+html, h3{
+  color: #000000;
+  font-family:'Poppins', sans-serif;
+  background-color: #9ac9db;
+  text-align: center;
+  font-size:10px;
+  margin-top:-20px;
+}
+html, h4{
+  color: #000000;
+  font-family:'Poppins', sans-serif;
+  background-color: #9ac9db;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom:-4px;
+}
+
+html, form{
+	color: #000000;
+  font-family:'Poppins', sans-serif;
+  background-color: #9ac9db;
+  text-align: center;
+
+}
+
+#logo {
+  margin-top:30px;
+  max-width: 30%;
+  height: auto;
+  background-color:#000000; 
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom:20px;
+}
+
+#button {
+ margin:15px; /*adds spaces between buttons*/
+ margin-top: 75px;
+ border-radius: 30px;
+ border: none;
+ font-size: 100px;
+ background-color:black; 
+ color: #9ac9db;
+ font-family:'Poppins', sans-serif;
+ cursor:pointer;
+ padding: 10px;
+}
+.italic-placeholder::placeholder {
+  font-style: italic;
+}
+#aboutus {
+ margin-top:30px;
+ border-radius: 30px;
+ float: middle;
+ border: 6px;
+ font-size: 30px;
+ background-color:#f3e1a1; 
+ color: black;
+ font-family:'Poppins', sans-serif;
+ cursor:pointer;
+}
+.inner
+{
+ display: inline-block;
+}
+.button-wrapper {
+  text-decoration: none !important;
+}
+
+
+
+/*auto complete section: 
+*/
+*{ box-sizing: border-box; }
+body {
+  size:50px;
+  font: 30px;
+  font-family:'Poppins', sans-serif;
+}
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 40px;
+  border-radius: 20px;
+
+}
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+input[type=submit] {
+  background-color: Black;
+  color: #fff;
+}
+.autocomplete-items {
+  border-radius:20px;
+  position: absolute;
+  border-bottom: none;
+  border-top: none;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding:8px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+   background-color: #f3e1a1;
+}
+.autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
